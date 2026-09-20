@@ -17,7 +17,7 @@ class deck:
             self.cards.append(oro(rank,points=points,power=power,suitName="Oro"))
             self.cards.append(espada(rank,points=points,power=power,suitName="Espada"))
             self.cards.append(batuco(rank,points=points,power=power,suitName="Batuco"))
-            self.cards.append(copa(rank,points=points,power=points,suitName="Copa"))
+            self.cards.append(copa(rank,points=points,power=power,suitName="Copa"))
 
     def shuffleDeck(self):
         rd.shuffle(self.cards)
